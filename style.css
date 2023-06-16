@@ -1,0 +1,80 @@
+.container {
+  background-color: #000000b6;
+  height: 100%;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.again {
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  top: 30px;
+  left: 30px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+hr {
+  height: 10px;
+  background-color: white;
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+}
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  font-size: 70px;
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+.doanso {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.number {
+  font-size: 30px;
+  text-align: center;
+  width: 120px;
+  height: 60px;
+}
+
+/* Phần bên trái*/
+.left {
+  text-align: center;
+  font-size: 30px;
+}
+.check {
+  margin-top: 14.7px;
+  padding: 15px 0;
+  border: 1px solid #f5f5f5;
+  background-color: white;
+}
+
+/* Phần bên phải */
+.right {
+  color: white;
+  font-size: 30px;
+}
+.star-guessing {
+  margin-top: 0px;
+}
